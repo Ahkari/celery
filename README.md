@@ -3,11 +3,11 @@
 专注于快速开发电商移动网站活动页的SDK库。
 
 
-# 开发说明
+## 开发说明
 
 <br/>
 
-# info 说明
+## info 说明
 
 主要使用场景是电商网站移动端的活动页。
 
@@ -29,7 +29,7 @@
 <br/>
 <br/>
 
-# usage 使用
+## usage 使用
 
 下面提供一种较为方便的使用方式：
 
@@ -63,13 +63,13 @@ ehsySdk.init({
 <br/>
 <br/>
 
-# module 模块说明
+## module 模块说明
 
 <br/>
 
-# **ehsySdk**
+## **ehsySdk**
 
-## property
+### property
 
 * message
 
@@ -82,7 +82,7 @@ ehsySdk.init({
 * analytics
 
 
-## method
+### method
 
 * `ehsySdk.config( options [, meta ])`
 
@@ -108,7 +108,7 @@ ehsySdk.config( 'cookie' , {
 <br/>
 <br/>
 
-# **message**
+## **message**
 
 该模块是电商活动页的核心。
 
@@ -228,7 +228,7 @@ ehsySdk.config( 'cookie' , {
 <br/>
 <br/>
 
-# **template**
+## **template**
 
 该模块实现了一个简单的模板引擎。方便开发者快速构建页面。
 
@@ -330,7 +330,7 @@ ehsySdk.config( 'cookie' , {
 <br/>
 <br/>
 
-# **weixin**
+## **weixin**
 
 该模块旨在让开发者用包装后的API来直接操作微信功能, 
 
@@ -344,7 +344,7 @@ ehsySdk.config( 'cookie' , {
 
 官方文档 ：https://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
 
-## method
+### method
 
 * `onMenuShareTimeline` 分享到微信朋友圈
 
@@ -438,7 +438,7 @@ weixin.onMenuShareQZone({
 <br/>
 <br/>
 
-# **cookie**
+## **cookie**
 
 该模块旨在让开发者便捷操作cookie。
 
@@ -446,7 +446,7 @@ weixin.onMenuShareQZone({
 
 你可以通过更改配置来存储和预设不一样的值，也可用和jquery.cookie类似的API来操作他们。
 
-## property
+### property
 
 * `cookie[ tokenName ]`
 
@@ -454,7 +454,7 @@ weixin.onMenuShareQZone({
 cookie.token ;    //1105C57357305A52B2CC4D7159FE9A4DC46B654D2D337C23F3905B951C6A6D88
 cookie[ 'openid' ] ;    //o_Rgms4nmTdZNRFhDo_V320ABSpc
 ```
-## method
+### method
 
 * `cookie.get( tokenName )  `
 * `cookie.config( tokenName , value , options ) `
@@ -484,7 +484,7 @@ cookie.config( 'yourName' , 'ahkari' ,   {
 <br/>
 <br/>
 
-# **analytics**
+## **analytics**
 
 本模块提供网页统计代码的配置。
 
